@@ -1,0 +1,145 @@
+
+.hero{
+    background-image: url("images/header-bg.png");
+    background-size:contain ;
+}
+.hero .container .row .col-md-6 h2{
+    color: rgb(253, 104, 153);
+    font-weight: bold;
+}
+.hero .container{
+    margin-top: 80px;
+    margin-left: 20%;
+    /* margin: o auto; */
+}
+.hero .container .row .col-md-6 p{
+    font-size: 13px;
+    width: 95%;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero .container .row .col-md-6 button{
+    background-color: rgb(253, 104, 153);
+    border: none;
+}
+.hero .container .row .col-md-6 img{
+    width: 60%;
+}
+
+.biography{
+    background-image: url('images/biography-bg.png');
+}
+
+.biography{
+    margin-top: 50px;
+    padding: 30px;
+}
+.biography .container .row .col-md-6 img{
+    margin-top: 0px;
+    margin-left: 180px;
+    width: 70%;
+}
+
+.biography .container{
+    margin-top: 50px;
+}
+
+.biography .container .row .col-md-6 h2{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.biography .container .row .col-md-6 p{
+    color: gray;
+    font-family: monospace;
+    font-size: 12px;
+    width: 70%;
+    margin-left: 70px;
+}
+
+.biography .container .row .col-md-6 button{
+    margin-left: 70px;
+    background-color: rgb(253, 104, 153);
+    border: none;
+}
+
+.my-latest-work{
+    margin-top: 20px;
+    padding: 50px;
+}
+.my-latest-work .container h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.my-latest-work .container .work{
+    display: flex;
+    justify-content: center;
+}
+.my-latest-work .container .work .box-1 img{
+    width: 90%
+    /* display: gri; */
+}
+.my-latest-work .container .work .box-2 img{
+    width: 90%;
+    /* display: gri; */
+}
+.my-latest-work .container .work .box-3 img{
+    width: 90%;
+    /* display: gri; */
+}
+
+.blank{
+    height: 250px;
+}
+
+.client h2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.client h6{
+    text-align: center;
+}
+.client p{
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.client .para{
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.email .container-sm{
+    background-color: rgb(253, 104, 153);
+    /* width: 40%; */
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 180px;
+    margin-left: 10 px;
+    margin-right: 10 px;
+}
+.email .container-sm p{
+    color: white;
+    text-align: center;
+    font-size: 11px;
+}
+.email .container-sm h6{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 11px;
+    color: grey;
+    margin-bottom: 30px;
+}
